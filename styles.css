@@ -148,7 +148,7 @@
     letter-spacing: 4px;
     color: hsl(228, 12%, 48%);
     font-size: 1.2em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
     font-weight: 500;
   }
   .product-name {
@@ -165,8 +165,8 @@
     line-height: 1.6;
   }
   .price-row {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -186,8 +186,8 @@
   }
   .cart {
     width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
     border: 0px solid hsl(158, 36%, 37%);
     border-radius: 7px;
     background-color: hsl(158, 36%, 37%);
