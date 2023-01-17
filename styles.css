@@ -6,7 +6,7 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-.mobile, .desktop {
+.mobile, .desktop, .attribution {
   display: none;
 }
 @media only screen and (max-width: 767px) {
@@ -90,6 +90,9 @@
 }
 
 .attribution {
+  display:flex;
+  align-items: center;
+  justify-content:center;
   padding: 15px 0px 15px 0px;
   background-color: hsl(212, 21%, 14%);
   color: #fff;
@@ -202,10 +205,10 @@
     margin-right: 0.5em;
   }
   .attribution {
+    display:flex;
+  align-items: center;
+  justify-content:center;
     height: 6vh;
   }
 }
-.attribution {
-  text-align: center;
-  font-size: 12px;
-}
+
