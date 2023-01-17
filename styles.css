@@ -6,7 +6,7 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-.mobile {
+.mobile, .desktop {
   display: none;
 }
 @media only screen and (max-width: 767px) {
@@ -98,7 +98,7 @@
   color: hsl(30, 38%, 92%);
   text-decoration: none;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   body {
     max-height: 100vh;
     font-size: 16px;
